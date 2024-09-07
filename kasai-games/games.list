@@ -1,0 +1,17 @@
+[
+    { "name": "Friday Night Funkin", "image": "media/fnf.jpeg", "url": "ig/fnf.html" },
+    { "name": "Subway Surfers", "image": "media/subway.webp", "url": "ig/subway-surf.html" },
+    { "name": "Minecraft 1.8", "image": "media/mc.png", "url": "ig/mc.html" },
+    { "name": "Solar Smash", "image": "media/solar-smash.webp", "url": "ig/solar-smash.html" },
+    { "name": "Voxiom.io", "image": "media/voxiom.webp", "url": "ig/voxiom.html" },
+    { "name": "EV.IO", "image": "media/ev.webp", "url": "ig/ev.html" },
+    { "name": "Venge.io", "image": "media/venge.avif", "url": "ig/venge.html" },
+    { "name": "Make it Meme", "image": "media/make_it_meme.avif", "url": "ig/make_it_meme.html" },
+    { "name": "Snake.io", "image": "media/snake_io.webp", "url": "ig/snake_io.html" },
+    { "name": "Slither.io", "image": "media/slither.png", "url": "ig/slither.html" },
+    { "name": "Doodle Jump", "image": "media/doodle.png", "url": "ig/doodle_jump.html" },
+    { "name": "Flappy Bird", "image": "media/flappy_bird.png", "url": "ig/flappy_bird.html" },
+    { "name": "Geometry Dash Lite", "image": "media/glite.png", "url": "ig/geometry-lite.html" },
+    { "name": "Geometry Dash Sub Zero", "image": "media/gsubzero.png", "url": "ig/geometry-subzero.html" },
+    { "name": "Tallman Run", "image": "media/tallman.jpeg", "url": "ig/tallman.html" }
+]
