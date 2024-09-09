@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zufälliges Zitat</title>
+    <script>
+        async function fetchRandomQuote() {
+            try {
+                // Lade die Datei list.txt
+                const response = await fetch('list.txt');
+                const text = await response.text();
+
+                // Teile den Text in Zeilen auf
+                const quotes = text.split('\n').filter(line => line.trim() !== '');
+
+                // Wähle ein zufälliges Zitat aus
+                const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+                // Zeige das Zitat im HTML an
+                document.getElementById('quote').textContent = randomQuote;
+            } catch (error) {
+                console.error('Fehler beim Laden der Datei:', error);
+                document.getElementById('quote').textContent = 'Fehler beim Laden des Zitats!';
+            }
+        }
+
+        window.onload = fetchRandomQuote;
+    </script>
+</head>
+<body>
+    <h1>Zufälliges Zitat</h1>
+    <p id="quote">Lade Zitat...</p>
+</body>
+</html>
